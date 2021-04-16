@@ -1,11 +1,14 @@
+import React from 'react'
+import Navbar from "./Navbar"
+import Home from './Home'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Hi, My name is James
-      </header>
+      <Navbar />
+      <Home />
     </div>
   );
 }
